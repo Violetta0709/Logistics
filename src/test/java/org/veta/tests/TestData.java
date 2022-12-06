@@ -1,4 +1,4 @@
-package org.veta.tests.testdata;
+package org.veta.tests;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;

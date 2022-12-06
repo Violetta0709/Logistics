@@ -10,9 +10,8 @@ import org.veta.pages.*;
 import java.io.File;
 
 import static com.codeborne.pdftest.assertj.Assertions.assertThat;
-import static com.codeborne.selenide.Selenide.*;
-import static org.veta.tests.testdata.TestData.*;
 import static io.qameta.allure.Allure.step;
+import static org.veta.tests.TestData.*;
 
 
 public class LogisticsTests extends TestBase {
