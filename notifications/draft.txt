@@ -1,0 +1,12 @@
+https://api.telegram.org/bot5565967776:AAEyYeoT2OiJnRYzpQVr-z3EZg-j1njx3Fo/getUpdates
+
+JSONview
+https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd/related?utm_source=chrome-ntp-icon
+
+qa_guru_veta_bot   bot name
+5565967776:AAEyYeoT2OiJnRYzpQVr-z3EZg-j1njx3Fo   bot token
+-1001788664433  chat id
+
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001788664433", "text": "Hello QA Guru", "disable_notification": true}' https://api.telegram.org/bot5565967776:AAEyYeoT2OiJnRYzpQVr-z3EZg-j1njx3Fo/sendMessage
+
+java "-DconfigFile=notifications/telegram.json" -jar notifications/allure-notifications-4.2.1.jar
