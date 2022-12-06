@@ -104,7 +104,7 @@ public class LogisticsTests extends TestBase {
                     .uploadFile(filePath)
                     .clickSubmit();
         });
-        step("Filling application", () -> {
+        step("Checking form successfully sent", () -> {
             services.checkResult();
         });
     }
@@ -179,7 +179,7 @@ public class LogisticsTests extends TestBase {
         step("Insert tracking number", () -> {
             tracking.setTrackingNumber(tracknumber);
         });
-        step("Checking tacking info", () -> {
+        step("Checking tracking info", () -> {
             tracking.clickSubmit()
                     .checkResult();
         });
