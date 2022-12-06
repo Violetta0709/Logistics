@@ -29,13 +29,19 @@ public class LogisticsTests extends TestBase {
     @DisplayName("Request proposal for business")
     void fillFormForProposalTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
-        request.openPage()
-                .askProposal()
-                .setUserName(fullName)
-                .setNumber(phone)
-                .setEmail(email)
-                .clickSubmit()
-                .checkResult();
+        step("Open page", () -> {
+            request.openPage();
+        });
+        step("Filling form", () -> {
+            request.askProposal()
+                    .setUserName(fullName)
+                    .setNumber(phone)
+                    .setEmail(email)
+                    .clickSubmit();
+        });
+        step("Checking form successfully sent", () -> {
+            request.checkResult();
+        });
     }
 
     //@Disabled
@@ -43,11 +49,16 @@ public class LogisticsTests extends TestBase {
     @DisplayName("Checking info about regional offices")
     void checkRegionalOfficesInfoTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
-
-        regional.openPage()
-                .checkTitle()
-                .chooseCity()
-                .checkResult();
+        step("Open page", () -> {
+            regional.openPage();
+        });
+        step("Choose region", () -> {
+            regional.checkTitle();
+        });
+        step("Checking required info exist", () -> {
+            regional.chooseCity()
+                    .checkResult();
+        });
     }
 
     //@Disabled
@@ -55,19 +66,24 @@ public class LogisticsTests extends TestBase {
     @DisplayName("Becoming partner")
     void fillFormBecomePartnerTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
-
-        partner.openPage()
-                .checkTitle()
-                .connect()
-                .checkPickup()
-                .becomePartner()
-                .setUserName(fullName)
-                .setNumber(phone)
-                .setCity(city)
-                .setEmail(email)
-                .setAddress(address)
-                .clickSubmit()
-                .checkResult();
+        step("Open page", () -> {
+            partner.openPage();
+        });
+        step("Open and fill form", () -> {
+            partner.checkTitle()
+                    .connect()
+                    .checkPickup()
+                    .becomePartner()
+                    .setUserName(fullName)
+                    .setNumber(phone)
+                    .setCity(city)
+                    .setEmail(email)
+                    .setAddress(address)
+                    .clickSubmit();
+        });
+        step("Checking form successfully sent", () -> {
+            partner.checkResult();
+        });
     }
 
     //@Disabled
@@ -75,17 +91,22 @@ public class LogisticsTests extends TestBase {
     @DisplayName("Ordering custom clearance services")
     void fillFormCustomClearanceTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
-
-        services.openPage()
-                .checkTitle()
-                .makeApplication()
-                .checkForm()
-                .setUserName(fullName)
-                .setNumber(phone)
-                .setEmail(email)
-                .uploadFile(filePath)
-                .clickSubmit()
-                .checkResult();
+        step("Open page", () -> {
+            services.openPage();
+        });
+        step("Filling application", () -> {
+            services.checkTitle()
+                    .makeApplication()
+                    .checkForm()
+                    .setUserName(fullName)
+                    .setNumber(phone)
+                    .setEmail(email)
+                    .uploadFile(filePath)
+                    .clickSubmit();
+        });
+        step("Filling application", () -> {
+            services.checkResult();
+        });
     }
 
     //@Disabled
@@ -93,41 +114,46 @@ public class LogisticsTests extends TestBase {
     @DisplayName("Ordering freight")
     void fillFormForFreightTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
-
-        freight.openPage()
-                .orderFreight()
-                .popupClose()
-                .checkTitle1()
-                .checkTitle2()
-                .setShipmentAddress(address)
-                .setShipmentDate(shipDate)
-                .setShipmentTime(shipTime)
-                .setShipmentCompany(companyName)
-                .setShipmentPhone(phone)
-                .setShipmentName(fullName)
-                .checkAddShipment()
-                .checkTitle3()
-                .setDeliveryAddress(address)
-                .setDeliveryDate(delDate)
-                .setDeliveryTime(delTime)
-                .setDeliveryCompany(companyName)
-                .setDeliveryPhone(phone)
-                .setDeliveryName(fullName)
-                .checkAddDelivery()
-                .setCargoDescription(cargoType)
-                .selectPackType(packType)
-                .setCargoQty(cargoQty)
-                .setCargoWeight(cargoWeight)
-                .setCargoVolume(cargoVolume)
-                .checkAddCargo()
-                .selectTransportCapacity(transpCapacity)
-                .selectTransportType(transpType)
-                .selectTransportLoadType(loadType)
-                .checkExtraEquip()
-                .setDesiredCost(cost)
-                .checkDocReturn()
-                .clickSubmit()
-                .checkResult();
+        step("Open page", () -> {
+            freight.openPage()
+                    .orderFreight()
+                    .popupClose()
+                    .checkTitle1()
+                    .checkTitle2();
+        });
+        step("Filling form", () -> {
+            freight.setShipmentAddress(address)
+                    .setShipmentDate(shipDate)
+                    .setShipmentTime(shipTime)
+                    .setShipmentCompany(companyName)
+                    .setShipmentPhone(phone)
+                    .setShipmentName(fullName)
+                    .checkAddShipment()
+                    .checkTitle3()
+                    .setDeliveryAddress(address)
+                    .setDeliveryDate(delDate)
+                    .setDeliveryTime(delTime)
+                    .setDeliveryCompany(companyName)
+                    .setDeliveryPhone(phone)
+                    .setDeliveryName(fullName)
+                    .checkAddDelivery()
+                    .setCargoDescription(cargoType)
+                    .selectPackType(packType)
+                    .setCargoQty(cargoQty)
+                    .setCargoWeight(cargoWeight)
+                    .setCargoVolume(cargoVolume)
+                    .checkAddCargo()
+                    .selectTransportCapacity(transpCapacity)
+                    .selectTransportType(transpType)
+                    .selectTransportLoadType(loadType)
+                    .checkExtraEquip()
+                    .setDesiredCost(cost)
+                    .checkDocReturn();
+        });
+        step("Checking form successfully sent", () -> {
+            freight.clickSubmit()
+                    .checkResult();
+        });
     }
 
     //@Disabled
@@ -147,12 +173,16 @@ public class LogisticsTests extends TestBase {
     @DisplayName("Tracking parcel")
     void trackParcelTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
-
-        tracking.openPage()
-                .setTrackingNumber(tracknumber)
-                .clickSubmit()
-                .checkResult();
+        step("Open page", () -> {
+            tracking.openPage();
+        });
+        step("Insert tracking number", () -> {
+            tracking.setTrackingNumber(tracknumber);
+        });
+        step("Checking tacking info", () -> {
+            tracking.clickSubmit()
+                    .checkResult();
+        });
     }
 }
-
 
