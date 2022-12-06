@@ -15,7 +15,7 @@ public class TestData {
     public static String
             fullName = faker.name().fullName(),
             email = faker.internet().emailAddress(),
-            phone = "9"+faker.phoneNumber().subscriberNumber(9),
+            phone = "9995556667"/*faker.phoneNumber().subscriberNumber(9)* как сгенеррировать номер, чтобы начинался с 9?*/,
             city = faker.address().cityName(),
             address = faker.address().fullAddress(),
             companyName = faker.company().name(),
