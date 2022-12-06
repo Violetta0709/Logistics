@@ -1,12 +1,14 @@
-https://api.telegram.org/bot5565967776:AAEyYeoT2OiJnRYzpQVr-z3EZg-j1njx3Fo/getUpdates
+https://api.telegram.org/bot5843895609:AAFvt-eH8C9uQnmH_ZS9Gs6LCkbRmQP240c/getUpdates
 
-JSONview
+JSONvue
 https://chrome.google.com/webstore/detail/jsonview/gmegofmjomhknnokphhckolhcffdaihd/related?utm_source=chrome-ntp-icon
 
-qa_guru_veta_bot   bot name
-5565967776:AAEyYeoT2OiJnRYzpQVr-z3EZg-j1njx3Fo   bot token
--1001788664433  chat id
+Log_istics_bot   bot name
 
-curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001788664433", "text": "Hello QA Guru", "disable_notification": true}' https://api.telegram.org/bot5565967776:AAEyYeoT2OiJnRYzpQVr-z3EZg-j1njx3Fo/sendMessage
+5843895609:AAFvt-eH8C9uQnmH_ZS9Gs6LCkbRmQP240c bot token
+
+-1001821867322  chat id
+
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001821867322", "text": "I am robot", "disable_notification": true}' https://api.telegram.org/bot5843895609:AAFvt-eH8C9uQnmH_ZS9Gs6LCkbRmQP240c/sendMessage
 
 java "-DconfigFile=notifications/telegram.json" -jar notifications/allure-notifications-4.2.1.jar
