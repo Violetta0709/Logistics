@@ -11,4 +11,4 @@ Log_istics_bot   bot name
 
 curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001821867322", "text": "I am robot", "disable_notification": true}' https://api.telegram.org/bot5843895609:AAFvt-eH8C9uQnmH_ZS9Gs6LCkbRmQP240c/sendMessage
 
-java "-DconfigFile=notifications/telegram.json" -jar notifications/allure-notifications-4.2.1.jar
+java '-DconfigFile=notifications/telegram.json' -jar notifications/allure-notifications-4.2.1.jar
