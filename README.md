@@ -1,11 +1,11 @@
 
 # Проект по автоматизации тестирования для сайта Сберлогистика
-<p align="center">
-<img src="images/sberlogistics.png"> width="250" height="100"
+<p align="left">
+<img src="images/sberlog.jpg" width="1050" height="400" > 
 </p>
-<a target="_blank" href="https://sberlogistics.ru/">Вэб сайт Сберлогистика</a>
+## :computer: <a target="_blank" href="https://sberlogistics.ru/">Сайт Сберлогистика</a>
 
-## :pushpin: Содержание:
+## :white_square_button: Содержание:
 
 - [Технологии и инструменты](#earth_africa-технологии-и-инструменты)
 - [Реализованные проверки](#earth_africa-Реализованные-проверки)
@@ -15,7 +15,7 @@
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
 - [Видео пример прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
-## :rocket: Технологии и инструменты
+## :white_square_button: Технологии и инструменты
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/idea.png" width="50" height="50"  alt="IDEA"/></a>
@@ -29,7 +29,7 @@
 <a href="https://www.jenkins.io/"><img src="images/jenkins.png" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
-## :scroll: Реализованные проверки
+## :white_square_button: Реализованные проверки
 
 - ✓ Проверка отправки формы заказа услуг по таможенному оформлению.
 - ✓ Проверка отслеживания статуса отправлений.
@@ -55,14 +55,14 @@
 - videoStorage (адрес, по которому можно получить видео)
 
 
-## :computer: Запуск тестов из терминала
+## :white_square_button: Запуск тестов из терминала
 
 Локальный запуск:
 ```bash
 gradle clean test
 ```
 
-Удаленный запуск:
+## :white_square_button: Удаленный запуск:
 ```bash
 clean
 test
@@ -118,4 +118,4 @@ test
 ### <img src="images/selenoid.png" width="25" height="25"  alt="Allure"/></a> Видео прохождения тестов
 
 <p align="center">
-<img title="Selenoid Video" src="images/video_tests.gif" width="750" height="400"  alt="video"> </p>
+<img title="Selenoid Video" src="images/video_tests.gif" width="950" height="550"  alt="video"> </p>
