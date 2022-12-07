@@ -3,7 +3,7 @@
 <p align="left">
 <img src="images/sberlog.jpg" width="1050" height="400" > 
 </p>
-<a target="_blank" href="https://sberlogistics.ru/">Сайт Сберлогистика</a>
+## :computer: <a target="_blank" href="https://sberlogistics.ru/">Сайт Сберлогистика</a>
 
 ## :white_square_button: Содержание:
 
