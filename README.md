@@ -74,7 +74,7 @@ test
 -Dthreads=${THREADS}
 ```
 
-## <img src="images/allurereport.png" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/berezkindv_performance_lab_complete_project/22/allure/">Allure report</a>
+## <img src="images/allure.png" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/Logistics/allure/">Allure report</a>
 
 ### Основное окно
 
@@ -88,7 +88,7 @@ test
 <img title="Allure Tests" src="images/testscreen.jpg">
 </p>
 
-### Гафики прохождения тестов
+### Графики прохождения тестов
 
 <p align="center">
 <img title="Allure Graphics" src="images/graphs.png">
@@ -106,12 +106,6 @@ test
 
 <p align="center">
 <img title="Allure TestOps Tests" src="images/testops1.jpg">
-</p>
-
-## <img src="images/" width="25" height="25"  alt="Allure"/></a>Интеграция с трекером задач <a target="_blank" href="">Jira</a>
-
-<p align="center">
-<img title="Jira" src="images/.png">
 </p>
 
 ## <img src="images/telegram.png" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
