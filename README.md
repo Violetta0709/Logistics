@@ -9,7 +9,6 @@
 - [Сборка в Jenkins](#earth_africa-Jenkins-job)
 - [Allure отчет](#earth_africa-Allure-отчет)
 - [Интеграция с Allure TestOps](#earth_africa-Интеграция-с-Allure-TestOps)
-- [Интеграция с Jira](#earth_africa-Интеграция-с-Jira)
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
 - [Видео пример прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
@@ -30,12 +29,12 @@
 ## :scroll: Реализованные проверки
 
 - ✓ Проверка отправки формы заказа услуг по таможенному оформлению.
-- ✓ Проверка опции отслеживания статус отправлений.
+- ✓ Проверка отслеживания статуса отправлений.
 - ✓ Проверка отправки формы запроса сотрудничества.
 - ✓ Проверка отправки формы "Стать партнером".
 - ✓ Проверка корректности содержания опубликованного пользователького соглашения.
-- ✓ Проверка информации в разделе "Региональные офисы"
-- ✓ Проверка отправки формы "Оформить доставку"
+- ✓ Проверка информации в разделе "Региональные офисы".
+- ✓ Проверка отправки формы "Оформить доставку".
 
 
 ## <img src="images/jenkins.png" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
@@ -47,12 +46,11 @@
 ### Параметры сборки в Jenkins:
 
 - browser (браузер, по умолчанию chrome)
-- browserVersion (версия браузера, по умолчанию 91.0)
+- browserVersion 
 - browserSize (размер окна браузера, по умолчанию 1920x1080)
-- browserMobileView (название мобильного устройства, для примера iPhone X)
-- remoteDriverUrl (логин, пароль и адрес удаленного сервера selenoid или grid)
+- remoteDriverUrl (логин, пароль и адрес удаленного сервера selenoid)
 - videoStorage (адрес, по которому можно получить видео)
-- threads (количество потоков)
+
 
 ## :computer: Запуск тестов из терминала
 
@@ -68,10 +66,8 @@ test
 -Dbrowser=${BROWSER}
 -DbrowserVersion=${BROWSER_VERSION}
 -DbrowserSize=${BROWSER_SIZE}
--DbrowserMobileView="${BROWSER_MOBILE}"
 -DremoteDriverUrl=https://${LOGIN}:${PASSWORD}@${REMOTE_DRIVER_URL}/wd/hub/
 -DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
--Dthreads=${THREADS}
 ```
 
 ## <img src="images/allure.png" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/Logistics/allure/">Allure report</a>
@@ -119,4 +115,4 @@ test
 ### <img src="images/selenoid.png" width="25" height="25"  alt="Allure"/></a> Видео прохождения тестов
 
 <p align="center">
-<img title="Selenoid Video" src="images/video_tests.gif" width="450" height="353"  alt="video"> </p>
+<img title="Selenoid Video" src="images/video_tests.gif" width="750" height="400"  alt="video"> </p>
