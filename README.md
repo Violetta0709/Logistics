@@ -90,7 +90,7 @@ test
 ### Графики прохождения тестов
 
 <p align="center">
-<img title="Allure Graphics" src="images/graphs.png">
+<img title="Allure Graphics" src="images/graphs.jpg">
 </p>
 
 ## <img src="images/allure_testopslogo.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с Allure TestOps
