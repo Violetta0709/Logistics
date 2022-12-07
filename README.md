@@ -5,7 +5,7 @@
 </p>
 <a target="_blank" href="https://sberlogistics.ru/">Сайт Сберлогистика</a>
 
-## 	:heavy_check_mark: Содержание:
+## :white_circle: Содержание:
 
 - [Технологии и инструменты](#earth_africa-технологии-и-инструменты)
 - [Реализованные проверки](#earth_africa-Реализованные-проверки)
