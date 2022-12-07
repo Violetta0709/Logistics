@@ -41,7 +41,7 @@
 ## <img src="images/jenkins.png" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/Logistics/">Сборка в Jenkins</a>
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/Logistics/"><img src="images/job.jpg" alt="Jenkins"/></a>
+<a href="https://jenkins.autotests.cloud/job/Logistics/"><img src="images/jenkinsjob.jpg" alt="Jenkins"/></a>
 </p>
 
 ### Параметры сборки в Jenkins:
@@ -74,7 +74,7 @@ test
 -Dthreads=${THREADS}
 ```
 
-## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/berezkindv_performance_lab_complete_project/22/allure/">Allure report</a>
+## <img src="images/allure.png" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/Logistics/allure/">Allure report</a>
 
 ### Основное окно
 
@@ -88,13 +88,13 @@ test
 <img title="Allure Tests" src="images/testscreen.jpg">
 </p>
 
-### Гафики прохождения тестов
+### Графики прохождения тестов
 
 <p align="center">
 <img title="Allure Graphics" src="images/graphs.png">
 </p>
 
-## <img src="images/allure.png" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" href="">Allure TestOps</a>
+## <img src="images/allure_testopslogo.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с Allure TestOps
 
 ### Дашборд
 
@@ -108,12 +108,6 @@ test
 <img title="Allure TestOps Tests" src="images/testops1.jpg">
 </p>
 
-## <img src="images/" width="25" height="25"  alt="Allure"/></a>Интеграция с трекером задач <a target="_blank" href="">Jira</a>
-
-<p align="center">
-<img title="Jira" src="images/.png">
-</p>
-
 ## <img src="images/telegram.png" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
 <p align="center">
@@ -122,7 +116,7 @@ test
 
 
 
-### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео прохождения тестов
+### <img src="images/selenoid.png" width="25" height="25"  alt="Allure"/></a> Видео прохождения тестов
 
 <p align="center">
-<img title="Selenoid Video" src="images/video_tests.gif" width="250" height="153"  alt="video"> </p>
+<img title="Selenoid Video" src="images/video_tests.gif" width="450" height="353"  alt="video"> </p>
