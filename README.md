@@ -41,7 +41,7 @@
 ## <img src="images/jenkins.png" width="25" height="25"  alt="Jenkins"/></a> Jenkins job
 <a target="_blank" href="https://jenkins.autotests.cloud/job/Logistics/">Сборка в Jenkins</a>
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/Logistics/"><img src="images/job.jpg" alt="Jenkins"/></a>
+<a href="https://jenkins.autotests.cloud/job/Logistics/"><img src="images/jenkinsjob.jpg" alt="Jenkins"/></a>
 </p>
 
 ### Параметры сборки в Jenkins:
@@ -74,7 +74,7 @@ test
 -Dthreads=${THREADS}
 ```
 
-## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/berezkindv_performance_lab_complete_project/22/allure/">Allure report</a>
+## <img src="images/allurereport.png" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/berezkindv_performance_lab_complete_project/22/allure/">Allure report</a>
 
 ### Основное окно
 
@@ -122,7 +122,7 @@ test
 
 
 
-### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Видео прохождения тестов
+### <img src="images/selenoid.png" width="25" height="25"  alt="Allure"/></a> Видео прохождения тестов
 
 <p align="center">
 <img title="Selenoid Video" src="images/video_tests.gif" width="250" height="153"  alt="video"> </p>
