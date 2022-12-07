@@ -1,9 +1,9 @@
 
 # Проект по автоматизации тестирования для сайта Сберлогистика
 <p align="left">
-<img src="images/sberlog.jpg" width="1050" height="400" > 
+<img src="images/bannersber.png" width="1150" height="349" > 
 </p>
-## :computer: <a target="_blank" href="https://sberlogistics.ru/">Сайт Сберлогистика</a>
+<a target="_blank" href="https://sberlogistics.ru/">sberlogistics.ru</a>
 
 ## :white_square_button: Содержание:
 
@@ -12,8 +12,8 @@
 - [Сборка в Jenkins](#earth_africa-Jenkins-job)
 - [Allure отчет](#earth_africa-Allure-отчет)
 - [Интеграция с Allure TestOps](#earth_africa-Интеграция-с-Allure-TestOps)
-- [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
-- [Видео пример прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
+- [Уведомление в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
+- [Видео прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
 ## :white_square_button: Технологии и инструменты
 
@@ -31,12 +31,12 @@
 
 ## :white_square_button: Реализованные проверки
 
-- ✓ Проверка отправки формы заказа услуг по таможенному оформлению.
-- ✓ Проверка отслеживания статуса отправлений.
-- ✓ Проверка отправки формы запроса сотрудничества.
-- ✓ Проверка отправки формы "Стать партнером".
-- ✓ Проверка корректности содержания опубликованного пользователького соглашения.
-- ✓ Проверка информации в разделе "Региональные офисы".
+- ✓ Проверка отправки формы заказа услуг по таможенному оформлению;
+- ✓ Проверка отслеживания статуса отправлений;
+- ✓ Проверка отправки формы запроса сотрудничества;
+- ✓ Проверка отправки формы "Стать партнером";
+- ✓ Проверка корректности содержания опубликованного пользователького соглашения;
+- ✓ Проверка информации в разделе "Региональные офисы";
 - ✓ Проверка отправки формы "Оформить доставку".
 
 
@@ -107,7 +107,7 @@ test
 <img title="Allure TestOps Tests" src="images/testops1.jpg">
 </p>
 
-## <img src="images/telegram.png" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
+## <img src="images/telegram.png" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram с результатами тестов
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/telegram_notifications.jpg">
