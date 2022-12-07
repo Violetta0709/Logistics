@@ -94,7 +94,7 @@ test
 <img title="Allure Graphics" src="images/graphs.png">
 </p>
 
-## <img src="images/allure.png" width="25" height="25"  alt="Allure"/></a>Интеграция с <a target="_blank" href="">Allure TestOps</a>
+## <img src="images/allure_testopslogo.svg" width="25" height="25"  alt="Allure"/></a>Интеграция с Allure TestOps
 
 ### Дашборд
 
@@ -119,4 +119,4 @@ test
 ### <img src="images/selenoid.png" width="25" height="25"  alt="Allure"/></a> Видео прохождения тестов
 
 <p align="center">
-<img title="Selenoid Video" src="images/video_tests.gif" width="250" height="153"  alt="video"> </p>
+<img title="Selenoid Video" src="images/video_tests.gif" width="450" height="353"  alt="video"> </p>
