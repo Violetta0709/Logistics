@@ -1,7 +1,7 @@
 
 # Проект по автоматизации тестирования для сайта Сберлогистика
 <p align="left">
-<img src="images/bannersber.png" width="1150" height="349" > 
+<img src="images/bannersber.png" width="1200" height="349" > 
 </p>
 <a target="_blank" href="https://sberlogistics.ru/">sberlogistics.ru</a>
 
