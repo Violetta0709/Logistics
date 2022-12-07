@@ -15,7 +15,7 @@
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
 - [Видео пример прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
-## :green_circle: Технологии и инструменты
+## :white_circle: Технологии и инструменты
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/idea.png" width="50" height="50"  alt="IDEA"/></a>
@@ -29,7 +29,7 @@
 <a href="https://www.jenkins.io/"><img src="images/jenkins.png" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
-## 	:heavy_check_mark: Реализованные проверки
+## 	:white_circle: Реализованные проверки
 
 - ✓ Проверка отправки формы заказа услуг по таможенному оформлению.
 - ✓ Проверка отслеживания статуса отправлений.
