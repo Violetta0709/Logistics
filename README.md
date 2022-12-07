@@ -66,10 +66,8 @@ test
 -Dbrowser=${BROWSER}
 -DbrowserVersion=${BROWSER_VERSION}
 -DbrowserSize=${BROWSER_SIZE}
--DbrowserMobileView="${BROWSER_MOBILE}"
 -DremoteDriverUrl=https://${LOGIN}:${PASSWORD}@${REMOTE_DRIVER_URL}/wd/hub/
 -DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
--Dthreads=${THREADS}
 ```
 
 ## <img src="images/allure.png" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/Logistics/allure/">Allure report</a>
