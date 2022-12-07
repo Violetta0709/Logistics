@@ -1,10 +1,10 @@
 
-# Проект по автоматизации тестирования для сайта Сберлогистика
+# Проект по автоматизации тестирования сайта Сберлогистика 
 <p align="left">
 <img src="images/bannersber.png" width="1000" height="300" > 
 </p>
-<a target="_blank" href="https://sberlogistics.ru/">sberlogistics.ru</a>
 
+<a target="_blank" href="https://sberlogistics.ru/">sberlogistics.ru</a>
 ## :white_square_button: Содержание:
 
 - [Технологии и инструменты](#earth_africa-технологии-и-инструменты)
