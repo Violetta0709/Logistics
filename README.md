@@ -15,7 +15,7 @@
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
 - [Видео пример прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
-## 	:heavy_check_mark: Технологии и инструменты
+## :green_circle: Технологии и инструменты
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/idea.png" width="50" height="50"  alt="IDEA"/></a>
