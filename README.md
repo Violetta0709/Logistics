@@ -15,7 +15,7 @@
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
 - [Видео пример прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
-## :radio_button: Технологии и инструменты
+## :white_square_button: Технологии и инструменты
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/idea.png" width="50" height="50"  alt="IDEA"/></a>
@@ -29,7 +29,7 @@
 <a href="https://www.jenkins.io/"><img src="images/jenkins.png" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
-## 	:white_circle: Реализованные проверки
+## :white_square_button: Реализованные проверки
 
 - ✓ Проверка отправки формы заказа услуг по таможенному оформлению.
 - ✓ Проверка отслеживания статуса отправлений.
@@ -55,14 +55,14 @@
 - videoStorage (адрес, по которому можно получить видео)
 
 
-## :computer: Запуск тестов из терминала
+## :white_square_button: Запуск тестов из терминала
 
 Локальный запуск:
 ```bash
 gradle clean test
 ```
 
-Удаленный запуск:
+## :white_square_button: Удаленный запуск:
 ```bash
 clean
 test
