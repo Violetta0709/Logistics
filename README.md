@@ -3,9 +3,9 @@
 <p align="left">
 <img src="images/sberlog.jpg"> 
 </p>
-<a target="_blank" href="https://sberlogistics.ru/">Вэб сайт Сберлогистика</a>
+<a target="_blank" href="https://sberlogistics.ru/">Сайт Сберлогистика</a>
 
-## :pushpin: Содержание:
+## :white_check_mark: Содержание:
 
 - [Технологии и инструменты](#earth_africa-технологии-и-инструменты)
 - [Реализованные проверки](#earth_africa-Реализованные-проверки)
@@ -15,7 +15,7 @@
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
 - [Видео пример прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
-## :rocket: Технологии и инструменты
+## :white_check_mark: Технологии и инструменты
 
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="images/idea.png" width="50" height="50"  alt="IDEA"/></a>
