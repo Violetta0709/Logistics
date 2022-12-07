@@ -119,4 +119,4 @@ test
 ### <img src="images/selenoid.png" width="25" height="25"  alt="Allure"/></a> Видео прохождения тестов
 
 <p align="center">
-<img title="Selenoid Video" src="images/video_tests.gif" width="700" height="400"  alt="video"> </p>
+<img title="Selenoid Video" src="images/video_tests.gif" width="800" height="400"  alt="video"> </p>
