@@ -1,5 +1,8 @@
 
 # Проект по автоматизации тестирования для сайта Сберлогистика
+<p align="center">
+<img src="images/sberlogistics.png"> width="250" height="100"
+</p>
 <a target="_blank" href="https://sberlogistics.ru/">Вэб сайт Сберлогистика</a>
 
 ## :pushpin: Содержание:
